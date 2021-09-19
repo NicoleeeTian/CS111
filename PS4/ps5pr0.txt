@@ -1,0 +1,7 @@
+﻿Problem Set 5, Problem 0
+Put your response to the reading below.
+IMPORTANT: Your entire response should fit on this page.
+
+
+Personally, I think the second drawback still exists. That is to say, there are always a number of unsaved subroutines which need programmers to write since some functions are not in the library. However, I agree with the author's point that this problem is not as serious as before because we are always trying to make progress. 
+Moreover, one advantage of a high-level language is it makes programs readable. As more and more people could have the ability to put the effort in computer sciences. Since we are still on the way to improve, maybe it benefits the development of computers.

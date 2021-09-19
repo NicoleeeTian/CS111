@@ -1,0 +1,8 @@
+00    read r1
+01    read r2
+02    call r14 04
+03    halt
+04    mul r1 r1 r1
+05    mul r2 r2 r2
+06    sub r13 r1 r2
+07    jumpr r14

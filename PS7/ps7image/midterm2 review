@@ -1,0 +1,46 @@
+#
+# midterm2 practices
+#
+
+#Binary numbers
+print(int('10110000',2))
+print(1*2**7+0*2**6+1*2**5+1*2**4+0*2**3 +0*2**2 +0*2**1 +0*2**0)
+#Binary Addition Fundamentals
+# 0+0=0
+# 0+1=1
+# 1+0=1
+# 1+1=10
+# 1+1+1=11
+
+#Multiplying Binary Numbers
+"""
+       101101
+*        1110
+-------------
+       000000
+      1011010
+     10110100
++   101101000
+-------------
+   1001110110
+
+"""
+def dec_to_bin(n):
+    """takes an integer n should return a string representation of n's binary 
+    representation
+    """
+    if 
+
+# Gates and circuits
+
+# Assembly language
+
+#Definite loops
+
+#Indefinite loops
+
+# Nested Loops 
+
+#Reference and Mutable Data
+
+#2-Dlists 

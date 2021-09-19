@@ -1,0 +1,8 @@
+﻿Problem Set 8, Problem 0
+Put your response to the reading below.
+IMPORTANT: When you are done, you must download the file as plain-text, not as a PDF.
+Use File->Download->Plain Text.
+
+
+Personally, I think there is a huge difference between computers and humans. That is to say, computer systems are based on previous data and information to make a decision; however, people may sentimentally respond to the outside. Sometimes, we could also give an unexpected answer due to different situations while computers could not. 
+On the other hand, I agree computer systems and human beings share some similarities. For instance, in assembly languages and Python, computers work according to our commands. Thus, for some of the problems, we need to figure out the answer just like computer systems do.

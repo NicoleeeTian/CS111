@@ -1,0 +1,8 @@
+00    read r1        # initialize a positive integer stored in r1
+01    setn r2 111    # initialize r2 to 111
+02    calln r14 4    # call the function from line 4 and stored line 3 in r14
+03    halt
+04    write r2       # write r2
+05    addn r1 -1     # r1 = r1-1
+06    jgtz r1 2      # jump to line 2 if r1>0
+07    jumpr r14      # jump to the line stored in r14

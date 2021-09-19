@@ -1,0 +1,9 @@
+00    read r1        # initialize a positive integer stored in r1
+01    setn r2 111    # initialize r2 to 111
+02    jeqz r1 08     # call the function from line 4 and stored line 3 in r14
+03    call r14 06
+04    addn r1 -1     # r1 = r1-1
+05    jumpn 02       # jump to line2
+06    write r2       # write r2
+07    jumpr r14      # jump to the line stored in r14
+08    halt

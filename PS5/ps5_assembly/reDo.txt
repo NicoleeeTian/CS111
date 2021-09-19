@@ -1,0 +1,20 @@
+00   read r1
+01   setn r9 0 
+02   copy r2 r1 
+03   nop
+04   nop
+05   nop
+06   jeqz r2 14 
+07   div r3 r1 r2 
+08   mul r3 r2 r3 
+09   sub r3 r1 r3 
+10   jgtz r3 12 
+11   addn r9 1 
+12   addn r2 -1 
+13   jumpn 06
+14   setn r4 0
+15   addn r9 -2
+16   jeqz r9 18
+17   setn r4 1
+18   write r4
+19   halt

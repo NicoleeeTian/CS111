@@ -1,0 +1,10 @@
+# practics from coursepack
+00   read r1           # get first number from user and store it in r1
+01   copy r2 r1        # initialize r3, which will store the result
+02   addn r1 -1        # r1 = r1-1
+03   jeqz r1 06        # halt if r1 == 0
+04   mul r2 r1 r2      # r4 = r4 + r3
+05   jumpn 02          # loop back to line 02
+06   write r2          # write out the result
+07   halt
+

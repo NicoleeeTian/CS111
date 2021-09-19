@@ -1,0 +1,6 @@
+00    read r1            # get the first positive integer stored in r1
+01    read r2            # get the first positive integer stored in r2
+02    sub r3 r2 r1       # r3 = r2-r1
+03    mul r3 r3 r3       # r3 = r3 * r3
+04    write r3           # write r3
+05    halt

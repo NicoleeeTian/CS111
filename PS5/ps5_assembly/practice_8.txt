@@ -1,0 +1,8 @@
+00    setn r2 0     # initialize r2 to 0
+01    read r1       # get the first value stored in r1
+02    jeqz r1 6     # jump to line 6 if r1==0
+03    jltz r1 5     # jump to line 5 if r1<0
+04    addn r2 1     # r2 = r2 + 1
+05    jumpn 1       # jump to line 1
+06    write r2      # write the value of r2
+07    halt

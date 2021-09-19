@@ -1,0 +1,24 @@
+#
+# ps5pr9.txt (Problem Set 5, Problem 9)
+#
+# Calling a distance function twice
+#
+00   read r1           # get first number from user and store it in r1
+01   read r2           # get second number from user and store it in r2
+02   read r3           # get third number from user and store it in r3
+03   call r14 13       # call first function starts from line 13
+04   copy r5 r13       # initialize accumulator r5 to store value in r13
+05   copy r7 r2        # initialize accumulator r7 to r2
+06   copy r2 r3        # initialize accumulator r2 to r3
+07   call r14 13       # call second function starts from line 13
+08   sub r6 r5 r13     # r6 = r5 -r13
+09   jgtz r6 11        # halt if r5 - r13 > 0
+10   copy r2 r7        # initialize accumulator r2 to r7
+11   write r2          # print the value of r2
+12   halt              # end the program
+13   sub r4 r1 r2      # r4 = r1 -r2
+14   jgtz r4 16        # halt if r1 - r2 > 0
+15   sub r4 r2 r1      # r4 = r2 -r1
+16   copy r13 r4       # initialize accumulator r3 to store value in r4
+17   jumpr r14         # jump to the line stored in r14
+
